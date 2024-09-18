@@ -19,7 +19,7 @@
    cd todoapp
    ```
 
-### Step 2: Create Your Own GitHub Repository
+### Step 2: Create Your Own GitHub Repository:
 
 1. Log in to your [GitHub account](https://github.com/).
 2. Click on the **New** button or go to **Repositories** → **New** to create a new repository.
