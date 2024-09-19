@@ -1,0 +1,15 @@
+name: verify
+on: push
+jobs:
+  my_first_job:
+    runs-on: ubuntu_latest
+    steps:
+      - run: echo "hello"
+      - run: echo "world"
+
+  my_second_job:
+    runs-on: windows_latest
+    steps:
+      - run: echo "bye"
+      
+      
