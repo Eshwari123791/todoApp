@@ -1,0 +1,12 @@
+name: 08-04-variable
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: use Workflow input variable
+        run: |
+          echo "Setting Workflow Variable ${{ vars.DEBUG }}"
