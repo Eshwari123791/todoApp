@@ -1,4 +1,4 @@
-name: 08-04-variable
+name: 24-09_variable
 
 on:
   workflow_dispatch:
