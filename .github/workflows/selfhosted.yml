@@ -4,5 +4,5 @@ jobs:
   my-first-job:
     runs-on: self-hosted
     steps:
-      - run: dir "Hello"
+      - run: dir
   
