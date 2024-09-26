@@ -35,6 +35,7 @@ jobs:
 
   sonarqube:
     runs-on: self-hosted
+    needs: cache
     steps:
       - name: Set up JDK 17
         uses: actions/setup-java@v1
