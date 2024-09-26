@@ -1,0 +1,7 @@
+name: verify
+on: push
+jobs:
+  my_first_job:
+    runs-on: ubuntu_latest
+    steps:
+      - run: echo "hello"
