@@ -15,7 +15,7 @@
 	<description>Manage todos</description>
 	<properties>
 	 	<sonar.projectKey>todoapp</sonar.projectKey>
- 		<sonar.host.url>http://localhost:9000</sonar.host.url>
+ 		<sonar.host.url>http://localhost:9000/projects</sonar.host.url>
  		<sonar.login>sqp_d762b9974251759f24786915a0939aeb47bc1e2a</sonar.login>
 
 		<java.version>11</java.version>
