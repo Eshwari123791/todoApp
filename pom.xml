@@ -14,6 +14,10 @@
 	<name>todoapp</name>
 	<description>Manage todos</description>
 	<properties>
+	 	<sonar.projectKey>todoapp</sonar.projectKey>
+ 		<sonar.host.url>http://localhost:9000</sonar.host.url>
+ 		<sonar.login>sqp_d762b9974251759f24786915a0939aeb47bc1e2a</sonar.login>
+
 		<java.version>11</java.version>
 		<sonar.java.binaries>${project.build.directory}/classes</sonar.java.binaries>
 		<sonar.junit.reportPaths>target/surefire-reports</sonar.junit.reportPaths>
